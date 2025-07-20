@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: './',
+  base: '/discursa_site/',
   plugins: [react()],
   server: {
     port: 3000,
@@ -23,7 +23,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@': '/src'
+      '@': new URL('./src', import.meta.url).pathname
     }
   }
 }) 
