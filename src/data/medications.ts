@@ -50,34 +50,34 @@ export const voiceProfiles: VoiceProfile[] = [
 export const useCases: UseCase[] = [
   {
     id: 'museum-interactive-docent',
-    name: 'Interactive Museum Docent',
+    name: 'Cultural Information Assistant',
     category: 'museum',
-    description: 'Voice-activated exhibits that explain artifacts, artwork, and historical contexts with the depth of a professional curator.',
-    environment: 'Museums, galleries, cultural centers',
+    description: 'Voice-activated information points that provide detailed context about exhibits, artwork, and collections with curatorial-level expertise.',
+    environment: 'Museums, galleries, art centers, cultural institutions',
     targetAudience: ['visitors', 'students', 'researchers', 'tourists'],
     features: ['Multi-language support', 'Contextual storytelling', 'Artifact recognition', 'Accessibility features'],
     voiceProfile: voiceProfiles[0],
     sampleInteractions: [
-      'Tell me about this painting',
-      'What period is this sculpture from?',
-      'How was this artifact discovered?',
-      'What\'s the significance of this exhibit?'
+      'Tell me about this piece',
+      'What period is this from?',
+      'How was this work created?',
+      'What\'s the historical context?'
     ]
   },
   {
     id: 'restaurant-storyteller',
-    name: 'Restaurant Storyteller',
+    name: 'Hospitality Information Hub',
     category: 'restaurant',
-    description: 'Retro phones and kiosks that share the restaurant\'s origin story, menu details, chef insights, and local culinary history.',
-    environment: 'Restaurants, cafés, bars, food halls',
+    description: 'Voice-enabled service points that share menu information, ingredient details, preparation methods, and venue background.',
+    environment: 'Restaurants, cafés, bars, food halls, hospitality venues',
     targetAudience: ['diners', 'food enthusiasts', 'tourists', 'locals'],
-    features: ['Menu narration', 'Chef stories', 'Ingredient sourcing', 'Wine pairings', 'Local history'],
+    features: ['Menu narration', 'Ingredient information', 'Preparation details', 'Pairing suggestions', 'Venue history'],
     voiceProfile: voiceProfiles[1],
     sampleInteractions: [
-      'Tell me about today\'s specials',
-      'What\'s the story behind this restaurant?',
-      'Recommend a wine pairing',
-      'How do you source your ingredients?'
+      'Tell me about today\'s menu',
+      'What are the ingredients in this dish?',
+      'Suggest a wine pairing',
+      'How is this prepared?'
     ]
   },
   {

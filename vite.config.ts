@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// Updated for GitHub Pages deployment
 export default defineConfig({
-  base: './',
+  base: '/discursa_site/',
   plugins: [react()],
   server: {
     port: 3000,
