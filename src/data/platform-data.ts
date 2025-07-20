@@ -65,22 +65,6 @@ export const useCases: UseCase[] = [
     ]
   },
   {
-    id: 'customer-concierge',
-    name: 'Customer Concierge',
-    category: 'retail',
-    description: 'Interactive voice concierge that provides personalized assistance, recommendations, and support to enhance customer experience.',
-    environment: 'Retail, hospitality, service environments',
-    targetAudience: ['customers', 'guests', 'visitors', 'clients'],
-    features: ['Personalized recommendations', 'Service assistance', 'Brand storytelling', 'Real-time support'],
-    voiceProfile: voiceProfiles[1],
-    sampleInteractions: [
-      'What do you recommend?',
-      'Can you help me find something?',
-      'Tell me about your services',
-      'What are the popular options?'
-    ]
-  },
-  {
     id: 'wayfinding-guide',
     name: 'Wayfinding Guide',
     category: 'tourism',
