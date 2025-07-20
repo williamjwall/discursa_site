@@ -19,7 +19,7 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <a href="/" className="flex items-center hover:scale-105 transition-transform duration-300">
-                            <img src="/assets/logo_discursa.png" alt="Discursa" className="h-24 w-auto" />
+                            <img src="./assets/logo_discursa.png" alt="Discursa" className="h-24 w-auto" />
           </a>
           
           {/* Desktop Navigation */}

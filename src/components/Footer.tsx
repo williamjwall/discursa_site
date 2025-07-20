@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
       <div className="container">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <img src="/assets/logo_discursa.png" alt="Discursa" className="h-24 w-auto mx-auto mb-8" />
+            <img src="./assets/logo_discursa.png" alt="Discursa" className="h-24 w-auto mx-auto mb-8" />
             <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
               Give physical spaces a voice. Deploy and manage AI-driven voice experiences anywhere.
             </p>
