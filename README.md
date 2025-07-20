@@ -4,11 +4,11 @@ Give physical spaces a voice. Discursa is the first fully-managed voice experien
 
 Where most AI lives on screens, Discursa lives in the world.
 
-## 🎯 Brand Purpose
+## Brand Purpose
 
 Discursa exists to give physical spaces a voice. It's not just about information — it's about creating presence, personality, and connection in places that were previously silent.
 
-## ✨ Features
+## Features
 
 - **Voice-Powered Experiences**: ElevenLabs-driven voice technology for natural conversations
 - **Complete Platform Management**: Five integrated layers for seamless deployment and control
@@ -17,7 +17,7 @@ Discursa exists to give physical spaces a voice. It's not just about information
 - **Full Brand Control**: Customize personality, tone, content, and deployment timing
 - **Advanced Analytics**: Track engagement, optimize content, and measure impact
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend**: React 18 with TypeScript
 - **Build Tool**: Vite 5
@@ -27,7 +27,7 @@ Discursa exists to give physical spaces a voice. It's not just about information
 - **Background Effects**: Vanta.js
 - **Fonts**: Inter & Space Grotesk from Google Fonts
 
-## 🏗 Platform Architecture
+## Platform Architecture
 
 The Discursa platform consists of five integrated layers:
 
@@ -61,7 +61,7 @@ The Discursa platform consists of five integrated layers:
 - Export reports for internal review or funding applications
 - ROI measurement and optimization insights
 
-## 🌍 Use Cases by Environment
+## Use Cases by Environment
 
 ### Museums, Galleries, Exhibits
 - Interactive docents that explain objects
@@ -93,7 +93,7 @@ The Discursa platform consists of five integrated layers:
 - Playful brand personas to increase engagement time
 - Inventory queries and style recommendations
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -130,7 +130,7 @@ The Discursa platform consists of five integrated layers:
 - `npm run preview` - Preview production build
 - `npm run lint` - Type check with TypeScript
 
-## 🎨 Design System
+## Design System
 
 ### Brand Values
 - **Presence** – Every installation feels alive, responsive, aware
@@ -155,7 +155,7 @@ The Discursa platform consists of five integrated layers:
 - **Body**: Inter for readability
 - **Code**: JetBrains Mono for technical content
 
-## 🏢 Project Structure
+## Project Structure
 
 ```
 discursa/
@@ -189,7 +189,7 @@ discursa/
 └── vite.config.ts
 ```
 
-## 💡 Key Features
+## Key Features
 
 ### Voice Experience Management
 - **Natural Conversations**: ElevenLabs-powered voice that feels alive and responsive
@@ -205,7 +205,7 @@ discursa/
 - **Complete Control**: Manage content, personality, and deployment from one dashboard
 - **Scalable**: From single installations to hundreds of locations
 
-## 📊 Sales Messaging
+## Sales Messaging
 
 **Discursa is not just voice AI — it's your voice AI.**
 
@@ -215,7 +215,7 @@ Designed for teams who want to control the tone, timing, and message across ever
 - **Managed in the cloud** 
 - **Personalized down to the voice**
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -223,7 +223,7 @@ Designed for teams who want to control the tone, timing, and message across ever
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📞 Contact
+## Contact
 
 For more information about Discursa:
 - Website: https://discursa.ai
