@@ -21,8 +21,7 @@ const Hero: React.FC = () => {
             {/* Simple, clear description */}
             <ScrollAnimationWrapper animation="fade-in-up" delay={200}>
               <p className="text-2xl text-gray-400 mb-16 max-w-3xl leading-relaxed">
-                Deploy and manage AI-driven voice experiences 
-                in museums, restaurants, retail, and events.
+                Deploy and manage AI-driven voice experiences.
               </p>
             </ScrollAnimationWrapper>
 

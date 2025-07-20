@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollAnimationWrapper from './ScrollAnimationWrapper';
-import { platformFeatures } from '../data/medications';
+import { platformFeatures } from '../data/platform-data';
 
 const Features: React.FC = () => {
   return (

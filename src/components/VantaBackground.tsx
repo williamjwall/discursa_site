@@ -9,31 +9,49 @@ const VantaBackground: React.FC<VantaBackgroundProps> = ({ children, className =
   const vantaRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Simple initialization function exactly as provided
-    const setVanta = () => {
-      if (window.VANTA && vantaRef.current) {
-        window.VANTA.TOPOLOGY({
-          el: vantaRef.current,
-          mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
-          minHeight: 200.00,
-          minWidth: 200.00,
-          scale: 1.00,
-          scaleMobile: 1.00,
-          color: 0x43426b,
-          backgroundColor: 0x0
-        });
+    let vantaEffect: any = null;
+
+    const initVanta = () => {
+      if (window.VANTA && window.VANTA.TOPOLOGY && vantaRef.current) {
+        try {
+          vantaEffect = window.VANTA.TOPOLOGY({
+            el: vantaRef.current,
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x43426b,
+            backgroundColor: 0x0
+          });
+        } catch (error) {
+          console.warn('Vanta.js initialization failed:', error);
+        }
       }
     };
 
-    // Initialize
-    setVanta();
+    // Wait for scripts to load
+    const checkAndInit = () => {
+      if (window.VANTA && window.VANTA.TOPOLOGY) {
+        initVanta();
+      } else {
+        // Retry after a short delay
+        setTimeout(checkAndInit, 100);
+      }
+    };
+
+    checkAndInit();
 
     // Cleanup
     return () => {
-      if (window.VANTA && window.VANTA.TOPOLOGY) {
-        window.VANTA.TOPOLOGY.destroy?.();
+      if (vantaEffect && typeof vantaEffect.destroy === 'function') {
+        try {
+          vantaEffect.destroy();
+        } catch (error) {
+          console.warn('Vanta.js cleanup failed:', error);
+        }
       }
     };
   }, []);

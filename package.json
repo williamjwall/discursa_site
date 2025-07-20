@@ -1,7 +1,7 @@
 {
   "name": "discursa",
   "version": "1.0.0",
-  "description": "Discursa - The first fully-managed voice experience platform for physical spaces. Deploy, manage, and personalize AI-driven voice interfaces anywhere.",
+  "description": "Discursa - Deploy and manage AI-driven voice experiences anywhere.",
   "type": "module",
   "scripts": {
     "dev": "vite",

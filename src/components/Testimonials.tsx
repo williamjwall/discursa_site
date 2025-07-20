@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollAnimationWrapper from './ScrollAnimationWrapper';
-import { useCases } from '../data/medications';
+import { useCases } from '../data/platform-data';
 import VantaBackground from './VantaBackground';
 
 const UseCases: React.FC = () => {

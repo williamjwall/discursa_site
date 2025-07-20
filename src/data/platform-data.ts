@@ -49,83 +49,83 @@ export const voiceProfiles: VoiceProfile[] = [
 
 export const useCases: UseCase[] = [
   {
-    id: 'museum-interactive-docent',
-    name: 'Interactive Museum Docent',
+    id: 'information-assistant',
+    name: 'Information Assistant',
     category: 'museum',
-    description: 'Voice-activated exhibits that explain artifacts, artwork, and historical contexts with the depth of a professional curator.',
-    environment: 'Museums, galleries, cultural centers',
-    targetAudience: ['visitors', 'students', 'researchers', 'tourists'],
-    features: ['Multi-language support', 'Contextual storytelling', 'Artifact recognition', 'Accessibility features'],
+    description: 'Voice-powered information delivery that answers questions, provides explanations, and guides users through content naturally.',
+    environment: 'Any physical space requiring information delivery',
+    targetAudience: ['visitors', 'customers', 'guests', 'users'],
+    features: ['Natural conversation', 'Multi-language support', 'Content management', 'Analytics tracking'],
     voiceProfile: voiceProfiles[0],
     sampleInteractions: [
-      'Tell me about this painting',
-      'What period is this sculpture from?',
-      'How was this artifact discovered?',
-      'What\'s the significance of this exhibit?'
+      'Tell me about this',
+      'How does this work?',
+      'What are my options?',
+      'Where can I find more information?'
     ]
   },
   {
-    id: 'restaurant-storyteller',
-    name: 'Restaurant Storyteller',
-    category: 'restaurant',
-    description: 'Retro phones and kiosks that share the restaurant\'s origin story, menu details, chef insights, and local culinary history.',
-    environment: 'Restaurants, cafés, bars, food halls',
-    targetAudience: ['diners', 'food enthusiasts', 'tourists', 'locals'],
-    features: ['Menu narration', 'Chef stories', 'Ingredient sourcing', 'Wine pairings', 'Local history'],
-    voiceProfile: voiceProfiles[1],
-    sampleInteractions: [
-      'Tell me about today\'s specials',
-      'What\'s the story behind this restaurant?',
-      'Recommend a wine pairing',
-      'How do you source your ingredients?'
-    ]
-  },
-  {
-    id: 'tourism-guide',
-    name: 'Digital Tourism Guide',
-    category: 'tourism',
-    description: 'Public kiosks offering directions, local facts, cultural stories, and insider recommendations for travelers.',
-    environment: 'Tourist centers, airports, train stations, public squares',
-    targetAudience: ['tourists', 'business travelers', 'locals', 'international visitors'],
-    features: ['Multi-language support', 'Real-time directions', 'Cultural insights', 'Event recommendations'],
-    voiceProfile: voiceProfiles[1],
-    sampleInteractions: [
-      'Where\'s the nearest metro station?',
-      'What events are happening this weekend?',
-      'Tell me about local customs',
-      'Recommend hidden gems nearby'
-    ]
-  },
-  {
-    id: 'retail-brand-persona',
-    name: 'Retail Brand Persona',
+    id: 'customer-concierge',
+    name: 'Customer Concierge',
     category: 'retail',
-    description: 'Voice assistants that embody brand personality, provide product information, and create memorable shopping experiences.',
-    environment: 'Retail stores, showrooms, pop-up shops, flagship stores',
-    targetAudience: ['shoppers', 'brand enthusiasts', 'potential customers'],
-    features: ['Product recommendations', 'Brand storytelling', 'Inventory queries', 'Style advice'],
-    voiceProfile: voiceProfiles[3],
+    description: 'Interactive voice concierge that provides personalized assistance, recommendations, and support to enhance customer experience.',
+    environment: 'Retail, hospitality, service environments',
+    targetAudience: ['customers', 'guests', 'visitors', 'clients'],
+    features: ['Personalized recommendations', 'Service assistance', 'Brand storytelling', 'Real-time support'],
+    voiceProfile: voiceProfiles[1],
     sampleInteractions: [
-      'What\'s new in the collection?',
-      'Tell me about this product\'s materials',
-      'What sizes are available?',
-      'Share the brand story'
+      'What do you recommend?',
+      'Can you help me find something?',
+      'Tell me about your services',
+      'What are the popular options?'
     ]
   },
   {
-    id: 'event-installation',
-    name: 'Event Installation',
-    category: 'events',
-    description: 'Temporary voice booths for conferences, trade shows, and special events that engage attendees with interactive content.',
-    environment: 'Conference centers, trade shows, festivals, exhibitions',
-    targetAudience: ['attendees', 'exhibitors', 'sponsors', 'media'],
-    features: ['Event schedule', 'Speaker bios', 'Networking facilitation', 'Sponsor content'],
+    id: 'wayfinding-guide',
+    name: 'Wayfinding Guide',
+    category: 'tourism',
+    description: 'Voice-enabled navigation and location assistance that helps users find their way and discover nearby services.',
+    environment: 'Public spaces, large facilities, campuses',
+    targetAudience: ['visitors', 'travelers', 'staff', 'students'],
+    features: ['Directional guidance', 'Location services', 'Facility information', 'Emergency assistance'],
+    voiceProfile: voiceProfiles[1],
+    sampleInteractions: [
+      'How do I get to the main entrance?',
+      'Where is the nearest restroom?',
+      'What services are available here?',
+      'Can you give me directions?'
+    ]
+  },
+  {
+    id: 'brand-ambassador',
+    name: 'Brand Ambassador',
+    category: 'retail',
+    description: 'Voice interface that embodies brand personality, shares company values, and creates memorable brand interactions.',
+    environment: 'Corporate spaces, showrooms, exhibitions',
+    targetAudience: ['customers', 'partners', 'visitors', 'prospects'],
+    features: ['Brand voice consistency', 'Company storytelling', 'Product expertise', 'Engagement tracking'],
     voiceProfile: voiceProfiles[3],
     sampleInteractions: [
-      'What sessions are happening now?',
-      'Tell me about the keynote speaker',
-      'How do I connect with other attendees?',
-      'What\'s the event wifi password?'
+      'Tell me about your company',
+      'What makes you different?',
+      'How can you help me?',
+      'What are your core values?'
+    ]
+  },
+  {
+    id: 'self-service-kiosk',
+    name: 'Self-Service Kiosk',
+    category: 'events',
+    description: 'Voice-activated self-service solution that handles routine tasks, processes requests, and provides 24/7 assistance.',
+    environment: 'Service centers, lobbies, public facilities',
+    targetAudience: ['users', 'customers', 'residents', 'employees'],
+    features: ['Task automation', 'Request processing', '24/7 availability', 'Multi-modal interaction'],
+    voiceProfile: voiceProfiles[0],
+    sampleInteractions: [
+      'I need help with a request',
+      'How do I complete this process?',
+      'What are the requirements?',
+      'Can you process this for me?'
     ]
   }
 ];
